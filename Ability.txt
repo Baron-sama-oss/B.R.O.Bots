@@ -1,0 +1,60 @@
++-----------------------+-----------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Ability               | Name      | Role    | Description                                                                                                                           |
++-----------------------+-----------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Aegis Stance          | Achilles  | Tank    | Deploys a frontal shield that blocks incoming damage and emits a shockwave on activation; reactivating exits shield mode.             |
+| Avalanche             | Skadi     | Tank    | Leaps and slams down, creating a permafrost zone that slows enemies and periodically emits freezing pulses.                           |
+| Axis Shift            | Ophanim   | Support | Creates a spatial field that emits delayed pulses, disrupting incoming projectiles while shortening status effects within its radius. |
+| Backstab              | Wasp      | Scout   | Teleports behind enemies, entering stealth briefly and dealing bonus damage on first strike.                                          |
+| Celestial Tether      | Orochi    | Support | Deploys energy tendrils that attach to nearby allies and heal them over time.                                                         |
+| Cinderwake Pulse      | Phoenix   | Support | Activates a survival timer; if Phoenix drops critically low, releases a shockwave that siphons health from nearby enemies.            |
+| Corrosion Bloom       | Serqet    | Attack  | Infuses weapons with corrosive acid, converting damage into armor-melting effects.                                                    |
+| Death March           | Hermoor   | Scout   | Temporarily activates a dormant weapon slot, increasing combat power while reducing mobility.                                         |
+| Demonic Sealing       | Zhong Kui | Attack  | Binds enemies within a triangular seal where hostile actions trigger explosive backlash.                                              |
+| Disruption            | Typhon    | Support | Emits an energy pulse that disables enemy abilities and slows reload speed for a short duration.                                      |
+| Eruption              | Vulcan    | Tank    | Activates inbuilt mortars that bombard an area with burning explosives.                                                               |
+| Fate Deferral         | Morrigan  | Support | Delays lethal damage on marked allies, allowing brief continued action and reducing enemy rewards if the ally still falls.            |
+| Flaming Spear         | Ne Zha    | Attack  | Channels focused thermal energy into a precision strike that pierces defenses and intensifies with sustained aggression.              |
+| Forked Path           | Janus     | Scout   | Marks an enemy and punishes sudden action changes by slowing movement and delaying abilities.                                         |
+| Gale Void             | Tengu     | Scout   | Generates void-infused winds that increase movement speed and destabilize enemy aim while moving.                                     |
+| Grudge                | Beowulf   | Tank    | Redirects a portion of allied damage taken to Beowulf, storing it to convert later into defense or controlled retaliation.            |
+| Harmonous Resonance   | Siren     | Support | Emits sonic waves that disrupt enemy control and weaken weapon handling.                                                              |
+| Headless Omen         | Dullahan  | Scout   | Binds a target to Dullahan's radius, amplifying damage nearby while severely slowing them if they attempt to escape.                  |
+| Heavenly Displacement | Zhu Bajie | Tank    | Marks and swaps position with a target, gaining temporary protection while disorienting the enemy.                                    |
+| Heavens Stratagem     | Hachiman  | Attack  | Deploys combat drones that bombard marked targets while limiting Hachiman's mobility.                                                 |
+| Hellfire Ravage       | Asmodeus  | Tank    | Asmodeus enters a Ruinous State, gaining increased movement speed and projecting a destructive aura around himself.                   |
+| Hourfall              | Kronos    | Attack  | Enters a temporal phase, recording its movement before automatically retracing the exact path after the duration ends.                |
+| Hunt Mode             | Guan Yu   | Scout   | Marks a target, causing damage taken to ramp up over time while in line of sight, pausing if vision is broken.                        |
+| Iaijutsu Protocol     | Kensei    | Scout   | Performs a high-speed phase dash through a target, applying bleed damage over time.                                                   |
+| Illusion              | Loki      | Scout   | Deploys decoy holograms and briefly cloaks, confusing enemy targeting systems.                                                        |
+| Iron Endurance        | Hercules  | Tank    | Becomes immune to weapon damage but takes increased damage from status effects.                                                       |
+| Judgement Dash        | Anubis    | Scout   | Dashes in a straight line at extreme speed, carrying and disrupting enemies hit until colliding with terrain.                         |
+| Life Steal            | Nidhogg   | Support | Converts a portion of damage dealt into healing shared between Nidhogg and nearby allies.                                             |
+| Lunar Eclipse         | Nox       | Scout   | Creates a localized shadow zone that reduces enemy targeting efficiency and grants Nox defensive bonuses while inside.                |
+| Overclock             | Hecate    | Support | Releases a shockwave that reloads allied weapons and abilities, then temporarily boosts their performance.                            |
+| Petrification         | Medusa    | Support | Emits a focused gaze that stuns enemies caught in line of sight.                                                                      |
+| Purity Sanctuary      | Qilin     | Support | Deploys a sanctified field that caps incoming damage and cleanses or weakens negative effects on allies within it.                    |
+| Ragnarok              | Surtr     | Tank    | Marks a target with Rupture; dealing enough damage triggers a devastating detonation that destabilizes and cripples the target.       |
+| Rampage               | Oni       | Attack  | Charges forward in a locked direction, knocking back enemies and gaining damage resistance during the charge.                         |
+| Reckoning Incarnate   | Nemesis   | Tank    | Releases an EMP shockwave that damages enemies based on recent damage received and generates a defensive aura that deals EMP.         |
+| Restore               | Asclepius | Support | Deploys a healing field that restores allied durability over time.                                                                    |
+| Revelation Sight      | Okami     | Support | Reveals enemies in a field; defeating marked targets triggers a healing burst for nearby allies.                                      |
+| Rootbind              | Gaia      | Tank    | Anchors a biome zone that fortifies allies, blocks enemies, and punishes anyone stubborn enough to contest her ground.                |
+| Sandstorm Assault     | Set       | Attack  | Surrounds itself with a moving sandstorm that damages enemies and reduces their accuracy while Set is in motion.                      |
+| Seismic Impact        | Atlas     | Tank    | Slams the ground to create shockwaves that damage, disrupt, and reshape nearby terrain temporarily.                                   |
+| Solar Tempest         | Helios    | Attack  | Fires a massive flare rocket that creates a burning energy dome, dealing damage over time in the area.                                |
+| Soul Siphon           | Shinigami | Attack  | Deploys Dark Energy homing projectiles that target wounded enemies, dealing partial unrecoverable damage.                             |
+| Stealth Charge        | Sleipnir  | Scout   | Enters a momentum-based movement state that increases speed and evasion while in motion.                                              |
+| Stormrend             | Susanoo   | Attack  | Creates a storm zone that applies lightning strikes to enemies who remain within it.                                                  |
+| Tandava               | Shiva     | Attack  | Enters a ritual combat state where sustained fire generates damaging shockwaves.                                                      |
+| Temporal Combustion   | Agni      | Tank    | Generates a burning zone around Agni that applies stacking burn damage to nearby enemies.                                             |
+| Thunderous Barrage    | Raijin    | Attack  | Converts weapon fire into chain lightning that jumps between closely grouped enemies.                                                 |
+| Tidal Ordinance       | Poseidon  | Tank    | Fires a powerful inbuilt cannon that deals heavy impact damage and applies water-based slowdown effects.                              |
+| Tidal Surge           | Leviathan | Attack  | Releases a directed tidal wave that displaces enemies and creates a slowing flood zone.                                               |
+| Time Tags             | Yaksha    | Support | Deploys teleport anchors that allow Yaksha and allies to reposition across the map.                                                   |
+| Torrent Bolt          | Ao Run    | Scout   | Fires a destabilizing bolt that creates a slipstream zone, disrupting enemy movement control and applying sustained pressure.         |
+| Venomous Miasma       | Tiamat    | Tank    | Emits a corrosive cloud that damages enemies and weakens armor over time.                                                             |
+| Vitality Ascension    | Garuda    | Support | Deploys energy wings that boost allied mobility and gradually restore durability.                                                     |
+| War Bound             | Ares      | Attack  | Creates a warzone that amplifies weapon power while escalating heat and instability for all, with kills extending its duration.       |
+| Warp Dash             | Hermes    | Scout   | Performs short-range spatial blinks using limited charges for rapid repositioning.                                                    |
+| Wings of Maat         | Horus     | Scout   | Enters a high-speed glide state that enhances traversal and evasion without revealing enemies.                                        |
++-----------------------+-----------+---------+---------------------------------------------------------------------------------------------------------------------------------------+

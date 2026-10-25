@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Combat Systems Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="main-header">
+  <div class="brand">B.R.OBots Archives</div>
+</header>
+<nav class="secondary-nav">
+  <button data-view="robots" class="active">ROBOTS</button>
+  <button data-view="weapons">WEAPONRY</button>
+  <button onclick="location.href='Siege.html'">SIEGE</button>
+</nav>
+<section class="section-header">
+  <h2>ROBOTS</h2>
+  <input id="searchInput" type="text" placeholder="Search..." />
+</section>
+<main id="robotGrid" class="robot-grid"></main>
+<section class="section-header">
+<script src="data.js"></script>
+<script src="weaponsData.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

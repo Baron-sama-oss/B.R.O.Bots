@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Siege Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="detail-hero">
+  <div class="detail-overlay">
+    <span class="detail-category">SIEGE</span>
+    <h1 id="robotName">SIEGE</h1>
+  </div>
+</header>
+<section class="section-header">
+  <h2>SIEGE</h2>
+
+  <div class="siege-toggle">
+    <button id="engineBtn" class="active">ENGINES</button>
+    <button id="weaponBtn">WEAPONS</button>
+  </div>
+
+  <input
+    id="siegeSearch"
+    type="text"
+    placeholder="Search..."
+    autocomplete="off"
+  />
+</section>
+
+<main id="siegeGrid" class="robot-grid"></main>
+<script src="enginesData.js"></script>
+<script src="siegeWeapons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

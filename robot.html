@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Robot Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="detail-hero">
+  <div class="detail-overlay">
+    <span class="detail-category">ROBOTS</span>
+    <h1 id="robotName">ROBOT</h1>
+  </div>
+</header>
+
+<section class="detail-body">
+  <div class="detail-info">
+    <h2 class="section-title">INFO</h2>
+
+    <div class="info-row">
+      <span>ROBOT CLASS</span>
+      <span id="robotRole"></span>
+    </div>
+
+    <div class="info-row">
+      <span>ABILITY</span>
+      <span id="robotAbility"></span>
+    </div>
+    <p id="robotAbilityDescription" class="robot-ability-description"></p>
+
+    <p id="robotDescription" class="robot-desc">
+      <!-- optional lore later -->
+    </p>
+
+    <table class="stats-table">
+      <tr><td>Gun Slots</td><td id="gunSlots"></td></tr>
+      <tr><td>Alpha</td><td id="alpha"></td></tr>
+      <tr><td>Beta</td><td id="beta"></td></tr>
+      <tr><td>Omega</td><td id="omega"></td></tr>
+      <tr><td>Weapon Sync Cap</td><td id="wsc"></td></tr>
+    </table>
+  </div>
+  <div class="detail-visual">
+    <div class="visual-mode-switch" role="group" aria-label="Robot display mode">
+      <button id="imageModeBtn" class="active" type="button" aria-pressed="true">IMAGE</button>
+      <button id="modelModeBtn" type="button" aria-pressed="false">3D MODEL</button>
+    </div>
+    <img id="robotImage" alt="Robot">
+    <model-viewer id="robotModel" alt="Interactive 3D model of robot" camera-controls touch-action="pan-y" shadow-intensity="1" exposure="1" environment-image="neutral" loading="lazy" aria-hidden="true"></model-viewer>
+    <p id="modelStatus" class="model-status" aria-live="polite"></p>
+  </div>
+<div class="loadout">
+  <h2 class="section-title">WEAPON LOADOUT</h2>
+  <div id="weaponSlots"></div>
+</div>
+</section>
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"></script>
+<script src="data.js"></script>
+<script src="weaponsData.js"></script>
+<script src="robot.js"></script>
+</body>
+</html>

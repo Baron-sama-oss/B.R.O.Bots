@@ -1,0 +1,479 @@
+/* ===== HEADER ===== */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0b0e14;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.primary-nav button {
+  margin-left: 1rem;
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-nav button.active {
+  color: #facc15;
+}
+
+/* ===== SECONDARY NAV ===== */
+
+.secondary-nav {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background: #111827;
+}
+
+.secondary-nav button {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.secondary-nav button.active {
+  color: #ffffff;
+  border-bottom: 2px solid #facc15;
+}
+
+/* ===== SECTION HEADER ===== */
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.section-header h2 {
+  color: #facc15;
+  font-size: 2rem;
+}
+
+/* ===== ROBOT GRID ===== */
+
+.robot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  height: 220px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.9);
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.card-content .tag {
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+  background: #facc15;
+  color: #000;
+  font-weight: 700;
+}
+
+.top-nav {
+  margin-top: 1rem;
+}
+
+.top-nav button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #1f2937;
+  color: #e5e7eb;
+  border: none;
+  cursor: pointer;
+}
+
+.top-nav button.active {
+  background: #3b82f6;
+}
+
+.top-nav button:hover {
+  background: #374151;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #121826, #070a10);
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
+}
+
+header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #1f2937;
+}
+
+.filters {
+  padding: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  background: #0f172a;
+  color: white;
+  border: 1px solid #334155;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #0b1220;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0;
+  color: #60a5fa;
+}
+
+.ability {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #1e293b;
+  font-size: 0.75rem;
+}
+
+/* ===== ROBOT DETAIL PAGE ===== */
+
+.detail-hero {
+  height: 320px;
+  background: linear-gradient(to right, #000, #111);
+  position: relative;
+}
+
+.detail-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+}
+
+.detail-category {
+  color: #facc15;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.detail-overlay h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.detail-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 3rem 4rem;
+}
+
+.detail-info {
+  max-width: 520px;
+}
+
+.section-title {
+  color: #facc15;
+  margin-bottom: 1rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+}
+
+.robot-desc {
+  margin: 1.5rem 0;
+  opacity: 0.85;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stats-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.detail-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-visual img {
+  max-width: 100%;
+  max-height: 420px;
+}
+/* ===== IMAGE FADE-IN ===== */
+
+.fade-img {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fade-img.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+/* ===== WEAPON TIERS ===== */
+
+.tier {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.tier-amateur {
+  color: #22c55e; /* 🟢 Green */
+}
+
+.tier-standard {
+  color: #3b82f6; /* 🔵 Blue */
+}
+
+.tier-advanced {
+  color: #a855f7; /* 🟣 Purple */
+}
+
+.tier-prototype {
+  color: #f97316; /* 🟠 Orange */
+}
+
+.tier-mythic {
+  color: #ef4444; /* 🔴 Red */
+}
+
+.tier-relic {
+  color: #111827; /* ⚫ Black */
+}
+#searchInput {
+  padding: 0.5rem 0.75rem;
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  width: 220px;
+}
+.loadout {
+  margin-top: 2rem;
+}
+
+.weapon-slot {
+  margin-bottom: 1rem;
+}
+
+.weapon-slot label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.weapon-slot select {
+  width: 100%;
+  padding: 0.5rem;
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+}
+.siege-toggle {
+  display: flex;
+  gap: 1rem;
+}
+
+.siege-toggle button {
+  background: #1f2937;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+.siege-toggle button.active {
+  background: #facc15;
+  color: #000;
+  font-weight: 700;
+}.siege-toggle {
+  display: flex;
+  gap: 1rem;
+}
+
+.siege-toggle button {
+  background: #1f2937;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+.siege-toggle button.active {
+  background: #facc15;
+  color: #000;
+  font-weight: 700;
+}
+.subtag {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 4px;
+}
+/* Robot card ability details */
+.robot-ability {
+  display: grid;
+  gap: 0.25rem;
+  margin-top: 0.65rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.robot-ability strong {
+  color: #facc15;
+}
+
+.robot-ability span {
+  color: #e5e7eb;
+  opacity: 0.86;
+}
+
+.robot-ability-description {
+  margin: 0.55rem 0 1.25rem;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Robot image and 3D model switch */
+.detail-visual {
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.visual-mode-switch {
+  display: flex;
+  align-self: flex-start;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  background: #0b1220;
+  border: 1px solid #334155;
+  border-radius: 6px;
+}
+
+.visual-mode-switch button {
+  padding: 0.55rem 0.85rem;
+  color: #cbd5e1;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.visual-mode-switch button.active {
+  color: #0b0e14;
+  background: #facc15;
+}
+
+.detail-visual img,
+.detail-visual model-viewer {
+  width: 100%;
+  height: 420px;
+  max-width: 100%;
+  object-fit: contain;
+  background: radial-gradient(circle, #18202d 0%, #0b0e14 75%);
+}
+
+.detail-visual model-viewer[hidden],
+.detail-visual img[hidden] {
+  display: none;
+}
+
+.model-status {
+  min-height: 1.25rem;
+  margin: 0;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 700px) {
+  .detail-visual img,
+  .detail-visual model-viewer {
+    height: min(70vh, 420px);
+  }
+}
